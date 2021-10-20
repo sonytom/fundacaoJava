@@ -29,11 +29,15 @@ public class StringObj {
 
         System.out.println(frase.toUpperCase());
 
+<<<<<<< HEAD
         System.out.println("Olar Estamos todos aqui".contains("todos"));
         System.out.println("Olar Estamos todos aqui".indexOf("todos"));
         System.out.println("Olar Estamos todos aqui".substring(0,5));
 
 
+=======
+        
+>>>>>>> main
 
 
 
