@@ -1,10 +1,24 @@
-package ClassesEmetodos;
+package ClassesEmetodos.construtores;
 
 public class Produto {
-
-    String nome;
+// o valor sera o mesmo em todos as instancias/ objetos
+    static String nome= "olar";
     double preco;
     double desconto;
+
+    Produto (String nomeInicial){
+        nome = nomeInicial;
+    }
+
+    Produto (){
+
+    }
+
+    Produto (String nomeInicial,double precoinical,double descontoinicial){
+        nome = nomeInicial;
+        preco = precoinical;
+                desconto = descontoinicial;
+    }
 
 
     // caso o objeto ja tenha os dados declarados não é necessarios

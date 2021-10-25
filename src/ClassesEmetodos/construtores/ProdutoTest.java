@@ -1,6 +1,4 @@
-package ClassesEmetodos;
-
-import org.w3c.dom.ls.LSOutput;
+package ClassesEmetodos.construtores;
 
 public class ProdutoTest {
     public static void main(String[] args) {
@@ -8,13 +6,12 @@ public class ProdutoTest {
         // classe define o tipo (Produto é o tipo)
         //duas instancias
         //3 atributos
-        Produto p1 = new Produto();
-        p1.nome = "notebook";
-        p1.preco = 4300.00;
-        p1.desconto = 0.25;
+        Produto p1 = new Produto("",4500,0.25);
+
+
 
         var p2 = new Produto();
-        p2.nome = "Computador";
+        //p2.nome = "Computador";
         p2.preco = 4000.00;
         p2.desconto = 0.50;
 
