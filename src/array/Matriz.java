@@ -22,7 +22,7 @@ public class Matriz {
             for (int n = 0; n < notasDaturma[a].length; n++) {
 
                 System.out.printf("Informe a nota %d do aluno %d :"
-                                , n,a);
+                                , n +1,a+1);
                 notasDaturma[a][n] = entrada.nextDouble();
 
                 total += notasDaturma[a][n];

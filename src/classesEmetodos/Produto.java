@@ -2,9 +2,10 @@ package classesEmetodos;
 
 public class Produto {
 
-    String nome;
+   public String nome;
     double preco;
     double desconto;
+
 
 
     // caso o objeto ja tenha os dados declarados não é necessarios
