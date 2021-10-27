@@ -1,5 +1,7 @@
 package classesEmetodos;
 
+import classesEmetodos.equals.Usuario;
+
 public class DataTest {
     public static void main(String[] args) {
         Data d1 = new Data();
@@ -25,6 +27,8 @@ public class DataTest {
         Data d3 = new Data();
        d3.Obterdata();
         Data d4 = new Data("04","04","1995");
+
+
 d4.Obterdata();
     }
 }

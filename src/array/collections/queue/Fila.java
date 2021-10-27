@@ -17,7 +17,7 @@ public class Fila {
         // os dois adicionan elementos na lista
 
 
-        // diferença quando se tem fila com restrição de tamanho ex até 100
+        // diferença quando se tem fila com restrição de tamanho ex até 100 // quando a fila está cheia 
         // neste da erro lança exeption
         fila.add("Ana");
 
@@ -30,9 +30,32 @@ public class Fila {
         fila.add("Rafaela");
 
 
+
+        // pega o primeiro elemento da fila
+        //diferença de comportamento quando a fila está vazia// null
+
+        // retorna null
+        System.out.println(fila.peek());
         System.out.println(fila.peek());
 
 
+        // lança exeption
+        System.out.println(fila.element());
+        System.out.println(fila.element());
 
+ // limpar a fila
+        fila.clear();
+// tamanho da fila
+        fila.size();
+
+        // fila esta vazia
+        fila.isEmpty();
+
+
+// retorna o primeiro da fila e remove ele
+        // ele retornará nulo caso não tenha nada na fila
+        fila.poll();
+        // remove da fila mas lança exeption
+        fila.remove();
     }
 }

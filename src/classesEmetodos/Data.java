@@ -14,6 +14,15 @@ public class Data {
         this.ano= ano;
     }
 
+    Data (String dia){
+        this.dia=dia;
+
+    }
+    Data (String mes,String ano){
+        this.dia=dia;
+        this.ano=ano;
+    }
+
     Data (){
        // dia ="01";
        // mes="01";
