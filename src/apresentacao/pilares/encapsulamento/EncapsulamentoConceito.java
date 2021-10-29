@@ -20,7 +20,7 @@ public class EncapsulamentoConceito {
     *
     *
     *
-    *    // assim se cria um metodo para ele ser acessado
+    *    // cria um metodo para acessar o atributo
     *   // privado so pode ser acessado na propia classe // não pode no pacote
     *
     *
