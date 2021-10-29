@@ -9,7 +9,7 @@ public class CompraTest {
         c1.itens.add(new Item("Borracha",5,50.0));
         c1.itens.add(new Item("Celular",10,20.0));
 
-        System.out.println(c1.itens.size());
+      //  System.out.println(c1.itens.resize());
         System.out.println(c1.obtervalorTotal());
 
     }

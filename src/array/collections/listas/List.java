@@ -9,24 +9,25 @@ public class List {
         ArrayList<Usuario> lista = new ArrayList<Usuario>();
 
         // é um jeito
-        Usuario u1 = new Usuario("Ana");
+        Usuario u1 = new Usuario("1","Ana");
         lista.add(u1);
 
         // tbm pode ser assim    // so é permitido usar quando se tem o equals e o hashcode
-        lista.add(new Usuario("Carlos"));
-        lista.add(new Usuario("Joao"));
+       // lista.add(new Usuario("2","Carlos"));
+       // lista.add(new Usuario("3","Joao"));
 
-
+        //System.out.println(lista.remove(0));
         // remover
 
-       // lista.remove(0);
-
-        lista.remove(new Usuario("Carlos"));
+      // lista.remove(0);
+    //    System.out.println(   lista.remove(new Usuario("2")));
+        // lista.remove(new Usuario("3","Carlos"));
+       // lista.remove(new Usuario());
 
 // contains
 
 
-        System.out.println( lista.contains(new Usuario("Joao")));
+       System.out.println( lista.contains(new Usuario("Joao")));
 
         System.out.println( ">>>>>>>>"+lista.contains(u1));
 

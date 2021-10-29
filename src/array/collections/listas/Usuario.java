@@ -4,11 +4,21 @@ import java.util.Objects;
 
 public class Usuario {
     String nome;
+    String id;
 
 
-    public Usuario(String nome) {
-        this.nome = nome;
+    public Usuario(String id) {
+        this.id = id;
     }
+
+
+    public Usuario(String id,String nome) {
+        this.id = id;
+        this.nome = nome;
+
+    }
+
+
 
 
 
