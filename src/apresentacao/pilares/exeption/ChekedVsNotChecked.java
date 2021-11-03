@@ -5,7 +5,11 @@ public class ChekedVsNotChecked {
     //Checada tem varias formas de usar 
     // ou trata na main pelo metodo main
     // ou diretamente na função  com try/catch
+<<<<<<< HEAD
     public static void main(String[] args)  throws Exception {
+=======
+    public static void main(String[] args) /* throws Exception*/ {
+>>>>>>> main
 
 
         // se a função n quiser tratar o erro pode jogar para a main
@@ -55,7 +59,11 @@ public class ChekedVsNotChecked {
 
                             //não é necessário.
 
+<<<<<<< HEAD
     static void geraErro2() throws Exception  {
+=======
+    static void geraErro2() /*throws Exception */ {
+>>>>>>> main
         // quando é uma exeption checada é obrigado colocar  ASSINATURA do metodo
 
 

@@ -19,6 +19,9 @@ public class main {
         System.out.println("Estado Civil: " + i.estadocivil+"\n\n");
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
     }
 }

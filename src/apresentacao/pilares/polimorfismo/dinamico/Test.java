@@ -8,7 +8,11 @@ public class Test {
 
         c= new Ferrari();
         c = new Escort();
+<<<<<<< HEAD
         // o objeto c pode virar qualquer polimorfar qualquer classe especifica
+=======
+        // o objeto c pode virar qualquer calse mais especifica
+>>>>>>> main
 
     }
 }
