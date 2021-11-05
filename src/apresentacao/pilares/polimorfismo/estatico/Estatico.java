@@ -1,9 +1,7 @@
 package apresentacao.pilares.polimorfismo.estatico;
-<<<<<<< HEAD
-// sobrecarga
-=======
 
->>>>>>> main
+// sobrecarga
+
 public class Estatico {
     String nome;
     int cpf;

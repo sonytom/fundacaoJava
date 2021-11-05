@@ -9,6 +9,10 @@ public class Test {
         Pessoa p1 = new Pessoa();
          p1.nome = "Joao";
 
+         EncapsulamentoConceito p2 = new EncapsulamentoConceito();
+
+        // p2.no
+
 
 
     }

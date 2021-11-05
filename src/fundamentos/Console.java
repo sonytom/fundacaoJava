@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Console {
 
     public static void main(String[] args) {
+
+
         // sem quebra de linha
         System.out.print("olar");
         //com quebra de linha

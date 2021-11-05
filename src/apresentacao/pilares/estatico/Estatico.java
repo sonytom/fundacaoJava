@@ -2,7 +2,7 @@ package apresentacao.pilares.estatico;
 
 
 
-public class Estatico /*extends Data*/ {
+public class Estatico extends Data {
 
 
 
@@ -16,7 +16,7 @@ public class Estatico /*extends Data*/ {
             Data d2 = new Data(2,1,1500);
 
 
-
+       Object a ;
 
         System.out.println(d1.dia + "/" + d1.mes +"/"+ d1.ano);
 

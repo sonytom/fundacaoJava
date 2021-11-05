@@ -7,6 +7,8 @@ public class Pessoa {
     public String cpf;
     public Date data_nascimento;
     public String estadocivil;
+// pessoa herda de objeto
+// nomeclatura 
 
     public Pessoa(String _nome, String _cpf, Date _data,String _estadocivil) {
         this.nome = _nome;

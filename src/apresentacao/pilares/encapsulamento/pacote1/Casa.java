@@ -6,6 +6,7 @@ public class Casa {
         Pessoa p1 = new Pessoa();
         p1.nome = "Joao";
         p1.dinheiro = 5000;
+        p1.noPacote = 1;
     }
 
 }

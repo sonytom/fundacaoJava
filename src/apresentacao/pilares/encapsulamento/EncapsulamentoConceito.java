@@ -1,6 +1,8 @@
 package apresentacao.pilares.encapsulamento;
 
-public class EncapsulamentoConceito {
+import apresentacao.pilares.encapsulamento.pacote1.Pessoa;
+
+public class EncapsulamentoConceito extends Pessoa {
 
     /*
     * Encapsulemento é colocar algo dentro da capsula // algo detro de um recepiente
@@ -43,5 +45,8 @@ public class EncapsulamentoConceito {
     *
     *
     * */
+
+
+
 
 }

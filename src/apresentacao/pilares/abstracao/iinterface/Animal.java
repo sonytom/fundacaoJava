@@ -1,5 +1,5 @@
 package apresentacao.pilares.abstracao.iinterface;
-//https://www.w3schools.com/java/java_interface.asp
+
 
 // Interface
 interface Animal {
