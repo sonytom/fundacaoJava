@@ -10,10 +10,10 @@ public class Map {
 
         // Adiciona senão existir
         // e substitui caso já exista
-        usuarios.put(1,"Roberto");
+        usuarios.put(3,"Roberto");
         // altera
         usuarios.put(2,"Rafaela");
-
+//usuarios.remove(1);
         //------------------
 
         System.out.println(usuarios.size());
