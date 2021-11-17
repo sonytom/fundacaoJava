@@ -2,7 +2,7 @@ package apresentacao.pilares.exeption;
 
 public class Trycatch {
     public static void main(String[] args) {
-
+// --------- only catch
         //openMyFile()
         try {
                 //throw "myException"; // gera uma exceção
@@ -15,10 +15,20 @@ public class Trycatch {
 
 
             // executa mesmo dando a exeption
-        }finally {
+        }
+        finally {
          //openMyFile()
         }
-
+//------------------------------------- doble cacth
+try{
+    throw new ArithmeticException();
+}catch (ArrayIndexOutOfBoundsException e){
+    System.out.println("Dentro do Array indexoutofbouds");
+}catch (IndexOutOfBoundsException e){
+    System.out.println("Index");
+}catch (ArithmeticException | IllegalArgumentException e){
+    System.out.println("Illegal ");
+}
 
 
     }
